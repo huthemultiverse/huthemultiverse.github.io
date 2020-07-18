@@ -4,20 +4,80 @@
   <meta charset="utf-8">
   <title>Habib University Multiverse</title>
   <link rel="stylesheet" href=stylesheets/index.css> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c306a82fbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
 <header>
-    <h1>Habib University Multiverse Portal</h1>
+    <!-- <h1>Habib University Multiverse Portal</h1>
     <nav>
         <a href='index.html'>Home</a>
         <a>Events</a>
         <a>About US</a>
         <a>Contact Us</a>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand">The Multiverse</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >Contact Us</a>
+              </li>
+            </ul>
+          </div>
     </nav>
 </header>
+    <div class="container-fluid main-container">
+        <img class="logo" src="logo.png" alt="multiverselogo">
+    </div>
+    <div class="container-fluid anime-container">
+        <img class="div-image" src="anime.jpg" alt="anime">
+    </div>
+    <div class="container-fluid marvel-dc-container">
+        <img src="marvel.png" alt="marvellogo">
+        <img src="dc.png" alt="dclogo">
+    </div>
+    <div class="container-fluid k-pop-container">
+        <img src="k-pop.png" alt="kpop">
+    </div>
+    <div class="container-fluid book-container">
+        <img class="div-image" src="books.jpg" alt="books">
+    </div>
+    <div class="container-fluid arts-container">
+        <img class="div-image" src="arts.jpg" alt="arts">
+    </div>
+    <div class="container-fluid show-container">
+        <img class="div-image" src="tv-shows.jpg" alt="tvshows">
+    </div>
     </main>
     <footer>
-
+        <div class="container-fluid footer-container">
+            <div class="row footer-row mx-auto">
+                <a class="mx-auto">© The Multiverse</a>
+                
+            </div>
+            <div class="row footer-row mx-auto">
+                <i class="footer-icon fab fa-twitter"></i>
+                <i class="footer-icon fab fa-facebook-f"></i>
+                <i class="footer-icon fab fa-instagram"></i>
+                <i class="footer-icon fas fa-envelope"></i>
+            </div>
+        </div>
     </footer>
 </body>

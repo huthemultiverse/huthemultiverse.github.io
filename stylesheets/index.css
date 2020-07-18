@@ -1,5 +1,5 @@
 h1{
-
+    padding: 0;
     background-color:#B2A59F;
     font-size: 150%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -8,6 +8,67 @@ h1{
 header{
     color: white;
     background: #023459;
-    text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+
+.logo{
+    position: relative;
+    margin-top: 60px;
+    border-radius: 100%;
+}
+.div-image{
+    border-radius: 100%;
+}
+.main-container{
+    text-align: center;
+    background-color: #d1f7ff;
+    padding: 2rem 0;
+}
+.anime-container{
+    text-align: center;
+    background-color: #d11456;
+    padding: 2rem 0;
+}
+.marvel-dc-container{
+    text-align: center;
+    background-color: #d24678;
+    padding: 2rem 0;
+}
+.arts-container{
+    text-align: center;
+    background-color: #f35622;
+    padding: 2rem 0;
+}
+.k-pop-container{
+    text-align: center;
+    background-color: #246474;
+    padding: 2rem 0;
+}
+.book-container{
+    text-align: center;
+    background-color: #ff49;
+    padding: 2rem 0;
+}
+.show-container{
+    text-align: center;
+    background-color: #ffff;
+    padding: 2rem 0;
+}
+
+.footer-icon{
+    margin: 0 0.625rem;
+}
+
+.footer-container{
+    background-color: #ffddbb;
+}
+
+.footer-row{
+    width: 150px;
+    justify-content: space-between;
+    text-align: center;
 }
