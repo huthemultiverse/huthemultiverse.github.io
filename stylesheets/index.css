@@ -15,19 +15,70 @@ body{
     margin: 0;
 }
 
+.navbar{
+    font-family: "Bebas Neue", cursive;
+    padding: 0px;
+    color: #ffffff;
+    height: 15%;
+} .navbar.navbar-expand-lg{
+    padding: 0px;
+}
+
+.nav-button-unclick{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+} .nav-button-click{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+@media (max-width: 993px) {.navbar-collapse{
+    background-color: white;
+    color: black;
+}}
+
+.white-bg{
+    background-color: white !important;
+}
+
+.navbar-brand{
+    padding-left: 1rem;
+}
+
 .logo{
     position: relative;
-    margin-top: 60px;
-    border-radius: 100%;
+    top: 25%;
+    width: 30%;
+    height: auto;
+} @media (max-width: 993px){.logo{
+    position: relative;
+    top: 25%;
+    height: 50%;
+    width: auto;
+}} 
+
+.double-img{
+    width: 27.5%;
 }
 .div-image{
+    width: 55%;
+}
+.circular{
     border-radius: 100%;
 }
+
+.NavBar-List{
+    font-family: "Lato", sans-serif;
+    margin-right: 1rem;
+} .NavBar-List .active{
+    font-weight: 600;
+}
+
 .main-container{
     text-align: center;
-    background-color: #d1f7ff;
-    padding: 2rem 0;
+    background-color: #280a50;
+    background-image: -webkit-linear-gradient(118deg, #280a50 50%, #3d1472 50%);
+    height: 100vh;
 }
+
 .anime-container{
     text-align: center;
     background-color: #d11456;
@@ -64,7 +115,7 @@ body{
 }
 
 .footer-container{
-    background-color: #ffddbb;
+    background-color: #ffdd;
 }
 
 .footer-row{

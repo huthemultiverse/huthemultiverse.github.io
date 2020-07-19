@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Habib University Multiverse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href=stylesheets/index.css> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -20,18 +21,21 @@
         <a>About US</a>
         <a>Contact Us</a>
     </nav> -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand">The Multiverse</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto NavBar-List">
               <li class="nav-item active">
-                <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" >Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >HUCon</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link">About Us</a>
@@ -44,26 +48,26 @@
     </nav>
 </header>
     <div class="container-fluid main-container">
-        <img class="logo" src="logo.png" alt="multiverselogo">
+        <img class="logo" src="transparent-white.png" alt="multiverselogo">
     </div>
     <div class="container-fluid anime-container">
-        <img class="div-image" src="anime.jpg" alt="anime">
+        <img class="circular div-image" src="anime.jpg" alt="anime">
     </div>
     <div class="container-fluid marvel-dc-container">
-        <img src="marvel.png" alt="marvellogo">
-        <img src="dc.png" alt="dclogo">
+        <img class="double-img" src="marvel.png" alt="marvellogo">
+        <img class="double-img" src="dc.png" alt="dclogo">
     </div>
     <div class="container-fluid k-pop-container">
-        <img src="k-pop.png" alt="kpop">
+        <img class="div-image" src="k-pop.png" alt="kpop">
     </div>
     <div class="container-fluid book-container">
-        <img class="div-image" src="books.jpg" alt="books">
+        <img class="div-image circular" src="books.jpg" alt="books">
     </div>
     <div class="container-fluid arts-container">
-        <img class="div-image" src="arts.jpg" alt="arts">
+        <img class="div-image circular" src="arts.jpg" alt="arts">
     </div>
     <div class="container-fluid show-container">
-        <img class="div-image" src="tv-shows.jpg" alt="tvshows">
+        <img class="div-image circular" src="tv-shows.jpg" alt="tvshows">
     </div>
     </main>
     <footer>
@@ -81,3 +85,6 @@
         </div>
     </footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="scripts/index.js"></script>
+</html>
